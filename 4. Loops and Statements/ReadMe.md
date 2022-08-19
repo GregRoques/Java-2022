@@ -1,0 +1,2 @@
+- if/else if/else and switch statments function same as JS
+- ditto for and while loops;
