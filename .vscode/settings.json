@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "3. Math",
         "2. Variables",
         "1. Getting Started",
-        "3. Math"
+        "5. Class and Object"
     ]
 }
