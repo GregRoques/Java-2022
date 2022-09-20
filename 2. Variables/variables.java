@@ -22,7 +22,8 @@ public class variables {
         short s = 5; // 2 bytes > 16 bits
         byte b = 5; // 1 byte > 8 bits ... num range very small: -128 to 127
 
-        double d = 5.5; // 4 bytes
+        double d = 5.5; // 4 bytes ... default data type for dealing with float-point -- or decimal --
+                        // numbers
         float f = 5.5f; // 2 bytes (remember to use f at end)
 
         // strings
