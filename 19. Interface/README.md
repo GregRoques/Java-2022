@@ -10,6 +10,12 @@ interface Animal {
 }
 ```
 
+## 3 Types of Interfaces
+
+1. Normative - multiple method
+2. Functional Interface (formerly Single Abstract Method) - one method ... uses Lambda Expressions (taken from Scala language)
+3. Marker Interface - no methods
+
 ## Notes on Interfaces:
 
 - Like abstract classes, interfaces cannot be used to create objects (like other abstract classes)
