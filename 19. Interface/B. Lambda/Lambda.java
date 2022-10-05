@@ -11,5 +11,6 @@ public class Lambda {
     public static void main(String[] args) {
         ABC obj = () -> System.out.println("I'm the best");
             
-        };obj.show();
-}}
+        };
+        obj.show();
+}

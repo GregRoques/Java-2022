@@ -1,3 +1,6 @@
+@FunctionalInterface // if performing check to see if this is a function (single abstract) method, it
+                     // comes back true
+// that is because it has 1 abstract method... AND 1 default
 interface Demo {
     void abc();
 
@@ -12,6 +15,10 @@ class DemoImplementation implements Demo {
     public void abc() {
         System.out.println("defining that abc...");
     }
+
+    public void show(){
+        System.out.println('NEW SHOW!!!')
+    } // this WILL OVERRIDE interface
 }
 
 public class Default {
