@@ -63,3 +63,19 @@ class Main {
   }
 }
 ```
+
+## When Should You Use an Interface?
+
+- If you are creating functionality that will be useful across a wide range of objects, then you must use an interface. Abstract classes, at the end of the day, should be used for objects that are closely related. But the interfaces are best suited for providing common functionality to unrelated cases.
+- Interfaces are a great choice if you think that the API won’t be changing for a while.
+- Interfaces are also a great choice if you want to have something similar to the multiple inheritances, then you can implement various interfaces.
+- If we are going to design the small, concise bits of functionality, then you must use interfaces. But if you are designing the large functional units, then you must use an abstract class.
+
+## When should you use an abstract class?
+
+- An abstract class is a great choice if you are bringing into account the inheritance concept because it provides the common base class implementation to the derived classes.
+- An abstract class is also good if you want to declare non-public members. In an interface, all methods must be public.
+- If you want to add new methods in the future, then it is great to go with the abstract class. Because if you add new methods to the interface, then all of the classes that are already implemented in the interface will have to be changed in order to implement these new methods.
+- If you want to create multiple versions of your component, then go with the abstract class. Abstract classes provide a simple and easy way to version your components. When you go with updating the base class, all of the inheriting classes would be automatically updated with the change. Interfaces, on the other hand, can’t be changed once these are created. If you want a new version of the interface, then you must create a new interface.
+- Abstract classes always have the advantage of allowing better forwarding compatibility. Once the clients are onto an interface then you simply can't change it in the end. But if the abstract class is set up, then you can still add the behavior without breaking the existing code.
+- An abstract class is used if you want to provide a common, implemented functionality among all the implementations of the component. Abstract classes will allow you to partially implement your class, whereas interfaces would have no implementation for any members whatsoever.
