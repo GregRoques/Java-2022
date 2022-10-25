@@ -7,7 +7,7 @@ interface ABC {
     void show();
 }
 
-public class Lambda {
+public class Lambda implements ABC {
     public static void main(String[] args) {
         ABC obj = () -> System.out.println("I'm the best");
             
