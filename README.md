@@ -8,6 +8,11 @@
 
 [Spring Framework](https://www.youtube.com/watch?v=35EQXmHKZYs&list=PLM2GdNHvfSCHsjHjQuXMy2yE_o_pS23eR&index=3)
 
+# Class vs. Object
+
+- A **class is a template for an object**. It defines object properties including a valid range of values, and a default value. A class also describes object behavior.
+- An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings.
+
 # 4 Basics of OOP
 
 ### 1. Encapsulation
