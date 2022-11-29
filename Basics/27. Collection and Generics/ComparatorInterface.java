@@ -12,6 +12,7 @@ public class ComparatorInterface {
         // to do this, we will need to over-ride the sort function
         // Collections allows us to do this by creating a Comparator and passing it with our array ("values")
 
+        /* 
         Comparator<Integer> c = new Comparator<Integer>(){
 
             public int compare(Integer i, Integer j){
@@ -19,6 +20,12 @@ public class ComparatorInterface {
             }
 
         }; // Comparator is an Interface, so we will use it to create an anonymous class
+        */
+
+        //OR... because Comparator is a functional interface, we can use a Lambda:
+
+        Comparator<Integer> c = (int i,int j) -> return i%10>j%10 ? 1 : -1;
+        
 
         Collections.sort(values, c); // now, will return 404, 265, 908, 639
 
