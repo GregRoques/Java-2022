@@ -1,6 +1,6 @@
 # Collection and Generics
 
-## Collection API
+# Collection API
 
 Ex:
 
@@ -76,3 +76,13 @@ Map<Integer, String> m = new HashMap<Integer, String>()
 - There are **_two interfaces_** for implementing Map in java: **Map and SortedMap**
 - There are **_three classes_** for Map in Java: **HashMap, TreeMap, and LinkedHashMap**.
 - The order of a map depends on the specific implementations. For example, TreeMap and LinkedHashMap have predictable orders, while HashMap does not.
+
+# Generics
+
+- **Generics** means _parameterized types_. The idea is to add type safety to the Object Reference. You do this by assigning a type using angular (also called diamond) brackets.
+
+**_Ex:_**
+
+```
+List<Integer> values = new ArrayList<>();
+```
