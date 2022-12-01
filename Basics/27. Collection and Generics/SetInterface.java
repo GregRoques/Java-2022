@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Set -- unlike List -- only supports unique elements
+
 public class SetInterface {
     public static void main(String[] args) {
         Set<Integer> values = new TreeSet<>(); // b/c Set is an Interface, we must find a class that implements it:
