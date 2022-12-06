@@ -4,9 +4,17 @@
 
 [Tutorial](https://www.youtube.com/watch?v=8cm1x4bC610&t=2067s)
 
+## Spring Basics
+
+[Tutorial](https://www.youtube.com/watch?v=If1Lw4pLLEo&t=3374s)
+
 ## Spring Boot
 
 [Spring Framework](https://www.youtube.com/watch?v=35EQXmHKZYs&list=PLM2GdNHvfSCHsjHjQuXMy2yE_o_pS23eR&index=3)
+
+[Download Spring Boot Tools for Eclipse](https://spring.io/tools)
+
+[Generate and Download Spring Boot project online](https://start.spring.io)... Spring Boot Tools handles this for you in your IDE of choice
 
 # Class vs. Object
 
