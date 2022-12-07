@@ -14,3 +14,14 @@
 2. **Prototype:** A new instance will be created for a single bean definition every time a request is made for that bean.
 
 - Generally, we use the **_prototype scope for all beans that are stateful_**, while the **_singleton scope is used for the stateless beans_**.
+
+# Auto Configurations
+
+**src > resources > application.properties**
+
+In **MyWebApp** example, we specify properties for our MVC web pages:
+
+```
+spring.mvc.view.prefix=/pages/
+spring.mvc.view.suffix=.jsp
+```
