@@ -1,18 +1,19 @@
 public class Switch {
     public static void main(String args[]) {
 
-        int num = 2;
+        String day = "Tueday"
 
-        switch (num) {
-            case 1:
-                System.out.println("one");
+        switch(day)
+        {
+            case "Satuday":
+                System.out.println("6:40 AM");
                 break;
-            case 2:
-                System.out.println("two");
+            case "Tuesday", " Thursday":
+                System.out.println("5:30 AM");
                 break;
-            case 3:
-                System.out.println("three");
-                break;
+            default:
+                System.out.println("6:15 AM");
         }
+        
     }
 }

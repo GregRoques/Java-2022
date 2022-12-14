@@ -12,10 +12,6 @@
 
 [Generate and Download Spring Boot project online](https://start.spring.io)... Spring Boot Tools handles this for you in your IDE of choice
 
-## Spring Boot 3.0 (2022)
-
-[What's New](https://www.youtube.com/watch?v=TR254zh-f3c)
-
 # Class vs. Object
 
 - A **class is a template for an object**. It defines object properties including a valid range of values, and a default value. A class also describes object behavior.
