@@ -1,4 +1,4 @@
-public class Main {
+public class Print {
     public static void main(String[] args) {
         // System.out.print("Why won't I work.");
         // System.out.print("I am working now."); // prints everything on same line
