@@ -162,3 +162,30 @@ Output:
 - The dog says: bow wow
 */
 ```
+
+# Data Types
+
+**Primitive data types:** A primitive data type specifies the size and type of variable values, and it has no additional methods.
+
+- byte
+- short
+- int
+- long
+- float
+- double
+- boolean
+- char
+
+**Non-primitive data types:** are called reference types because they refer to objects.
+
+- String
+- Arrays
+- Classes
+
+### The main difference between primitive and non-primitive data types are:
+
+- _Primitive types_ are predefined (already defined) in Java. _Non-primitive_ types are created by the programmer and is not defined by Java (except for String).
+- _Non-primitive types_ can be used to call methods to perform certain operations, while _primitive types_ cannot.
+- A _primitive type_ has always a value, while _non-primitive_ types can be null.
+- A _primitive type_ starts with a lowercase letter, while _non-primitive types_ starts with an uppercase letter.
+- The size of a _primitive type_ depends on the data type, while _non-primitive types_ have all the same size.
