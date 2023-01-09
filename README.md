@@ -9,6 +9,7 @@
 [Spring Framework](https://www.youtube.com/watch?v=35EQXmHKZYs&list=PLM2GdNHvfSCHsjHjQuXMy2yE_o_pS23eR&index=3)
 
 [Download Spring Boot Tools for Eclipse](https://spring.io/tools)
+[Mail Sender w/Spring Boot](https://www.youtube.com/watch?v=ugIUObNHZdo)
 
 [Generate and Download Spring Boot project online](https://start.spring.io)... Spring Boot Tools handles this for you in your IDE of choice
 
